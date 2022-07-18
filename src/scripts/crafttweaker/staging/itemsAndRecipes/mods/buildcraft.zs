@@ -2,6 +2,8 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.ZenStager;
 
+import scripts.crafttweaker.stages.stageOne;
+import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
@@ -9,10 +11,16 @@ import scripts.crafttweaker.stages.stageDisabled;
 import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
-	stageThree.stage: [
-		<buildcraftcore:engine:0>,
+	stageOne.stage: [
+		<buildcraftcore:engine:0>
+	],
+	
+	stageTwo.stage: [
 		<buildcraftcore:wrench:0>,
-		<buildcraftfactory:tank:0>,
+		<buildcraftfactory:tank:0>
+	],
+
+	stageThree.stage: [
 		<buildcraftlib:guide:*>,
 		<buildcrafttransport:pipe_clay_fluid:*>,
 		<buildcrafttransport:pipe_clay_item:*>,
