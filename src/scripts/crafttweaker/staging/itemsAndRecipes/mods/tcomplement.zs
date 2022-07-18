@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageZero;
+import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
@@ -18,12 +19,15 @@ static stagedItems as IIngredient[][string] = {
 		<tcomplement:porcelain_melter:0>
 	],
 
+	stageOne.stage: [
+		<tcomplement:cast:0>,
+		<tcomplement:cast_clay:0>,
+		<tcomplement:materials:0>
+	],
+
 	stageTwo.stage: [
 		<tcomplement:alloy_tank:0>,
 		<tcomplement:porcelain_alloy_tank:0>,
-		<tcomplement:cast:0>,
-		<tcomplement:cast_clay:0>,
-		<tcomplement:materials:0>,
 		<tcomplement:porcelain_tank:1>,
 		<tcomplement:porcelain_tank:2>,
 		<tcomplement:porcelain_tank:0>
