@@ -16,6 +16,9 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageOne.stage: [
+		<cyclicmagic:block_anvil:0>,
+		<cyclicmagic:charm_speed:0>,
+		<cyclicmagic:storage_bag:0>,
 		<cyclicmagic:apple:0>,
 		<cyclicmagic:ender_torch:0>,
 		<cyclicmagic:food_step:0>,
@@ -135,8 +138,6 @@ static stagedItems as IIngredient[][string] = {
 
 	stageFive.stage: [
 		// Diamond Stuff
-		<cyclicmagic:block_anvil:0>,
-		<cyclicmagic:charm_speed:0>,
 		<cyclicmagic:horse_upgrade_health:0>,
 		<cyclicmagic:spikes_diamond:0>,
 
@@ -193,7 +194,6 @@ static hiddenRemove as IIngredient[] = [
 	<cyclicmagic:glowing_chorus:0>,
 	<cyclicmagic:mattock:0>,
 	<cyclicmagic:sack_ender:0>,
-	<cyclicmagic:storage_bag:0>,
 	<cyclicmagic:tool_prospector:0>,
 	<cyclicmagic:tool_randomize:0>,
 	<cyclicmagic:tool_trade:0>,
