@@ -200,11 +200,6 @@ static removeRecipes as IItemStack[] = [
 	<tconstruct:wood_rail:0>
 ];
 
-static removeRegex as string[] = [
-	"tconstruct:gadgets/slimesling/green",
-	"tconstruct:tools/pattern"
-];
-
 function init() {
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
