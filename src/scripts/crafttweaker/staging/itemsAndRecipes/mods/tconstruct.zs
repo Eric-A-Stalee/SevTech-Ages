@@ -289,18 +289,6 @@ static stagedItems as IIngredient[][string] = {
 
 static hiddenItems as IIngredient[] = [
 	<tconstruct:moms_spaghetti:0>,
-	<tconstruct:slime_grass_tall:1>,
-	<tconstruct:slime_grass_tall:4>,
-	<tconstruct:slime_grass_tall:5>,
-	<tconstruct:slime_grass_tall:8>,
-	<tconstruct:slime_grass_tall:9>,
-	<tconstruct:slime_grass_tall:0>,
-	<tconstruct:slime_vine_blue:0>,
-	<tconstruct:slime_vine_blue_end:0>,
-	<tconstruct:slime_vine_blue_mid:0>,
-	<tconstruct:slime_vine_purple:0>,
-	<tconstruct:slime_vine_purple_end:0>,
-	<tconstruct:slime_vine_purple_mid:0>,
 	<tconstruct:spaghetti:0>
 ];
 
@@ -332,6 +320,6 @@ function init() {
 
 	// Handle the Tool Tables
 	for subItem in <tconstruct:tooltables>.definition.subItems {
-		stageTwo.addIngredient(subItem);
+		stageOne.addIngredient(subItem);
 	}
 }
