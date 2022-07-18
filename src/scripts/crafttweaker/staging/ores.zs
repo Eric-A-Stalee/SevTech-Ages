@@ -79,7 +79,7 @@ static replacementItemsForStage as IIngredient[][][string] = {
 		[<geolosys:ore_sample:5>, <immcraft:rock:0>],
 		[<abyssalcraft:abytinore:0>, <abyssalcraft:stone:1>],
 
-		// Black Quarts
+		// Black Quartz
 		[<actuallyadditions:block_misc:3>],
 
 		// Aquamarine ContentTweaker
