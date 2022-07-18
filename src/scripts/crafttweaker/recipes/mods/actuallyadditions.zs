@@ -49,6 +49,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	// This is not a real pizze (And just because someone gave me a hard time on how I spell pizze (assumptions about my spelling were made)
 	// I'm going to leave it in here and people are going to have to deal with it) just FYI. It does not have olives on it but chat bullied me
 	// and now it has meatballs and chili peppers instead. Thanks Obama. I'm also not sorry.
+	// Additional note to check on oredict dough/flour and see if possible.  Else replace with natura flour/dough.
 	<actuallyadditions:item_food:14> : [
 		[[<actuallyadditions:item_food:0>, <betterwithaddons:food_meatballs:0>, <actuallyadditions:item_food:0>],
 		[<actuallyadditions:item_food:20>, <rustic:tomato:0>, <rustic:chili_pepper:0>],
@@ -69,6 +70,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:egg:0>, <horsepower:dough:0>, <minecraft:sugar:0>]
 		]
 	],
+	// Some of these recipes are a bit too simple.
 	<actuallyadditions:block_coal_generator:0> : [
 		[
 			[<minecraft:cobblestone:0>, <stevescarts:cartmodule:0>, <minecraft:cobblestone:0>],
@@ -421,12 +423,9 @@ static removeRecipes as IItemStack[] = [
 	<actuallyadditions:block_atomic_reconstructor:0>,
 	<actuallyadditions:block_bio_reactor:0>,
 	<actuallyadditions:block_breaker:0>,
-	<actuallyadditions:block_canola_press:0>,
-	<actuallyadditions:block_coal_generator:0>,
 	<actuallyadditions:block_coffee_machine:0>,
 	<actuallyadditions:block_compost:0>,
 	<actuallyadditions:block_directional_breaker:0>,
-	<actuallyadditions:block_farmer:0>,
 	<actuallyadditions:block_feeder:0>,
 	<actuallyadditions:block_fermenting_barrel:0>,
 	<actuallyadditions:block_furnace_double:0>,
@@ -434,8 +433,6 @@ static removeRecipes as IItemStack[] = [
 	<actuallyadditions:block_giant_chest_large:0>,
 	<actuallyadditions:block_giant_chest_medium:0>,
 	<actuallyadditions:block_greenhouse_glass:0>,
-	<actuallyadditions:block_grinder:0>,
-	<actuallyadditions:block_grinder_double:0>,
 	<actuallyadditions:block_heat_collector:0>,
 	<actuallyadditions:block_misc:8>,
 	<actuallyadditions:block_misc:9>,
