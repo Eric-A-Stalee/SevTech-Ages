@@ -24,16 +24,16 @@ import scripts.crafttweaker.stages.stageDisabled;
 	GENERAL RESTRICTIONS
 */
 // Prevents all tools unless the stage is unlocked.
-TinkerStages.addGeneralCraftingStage(stageTwo.stage);
+TinkerStages.addGeneralCraftingStage(stageOne.stage);
 
 // Prevents all tool swapping unless the stage is unlocked.
-TinkerStages.addGeneralPartReplacingStage(stageTwo.stage);
+TinkerStages.addGeneralPartReplacingStage(stageOne.stage);
 
 // Prvents all part building unless the stage is unlocked.
-TinkerStages.addGeneralPartBuildingStage(stageTwo.stage);
+TinkerStages.addGeneralPartBuildingStage(stageOne.stage);
 
 // Prevents applying any tool modifiers unless the stage is unlocked.
-TinkerStages.addGeneralModifierStage(stageThree.stage);
+TinkerStages.addGeneralModifierStage(stageTwo.stage);
 
 /*
 	SPECIFIC RESTRICTIONS
@@ -42,36 +42,36 @@ TinkerStages.addGeneralModifierStage(stageThree.stage);
 // Tool Type Stage
 // Prevents a specific tool type from being crafted at the tool station.
 static toolTypeStages as string[][string] = {
-	stageTwo.stage: [
-		"tconstruct:arrow",
-		"tconstruct:battlesign",
-		"tconstruct:bolt",
+	stageOne.stage: [
 		"tconstruct:broadsword",
-		"tconstruct:crossbow",
-		"tconstruct:excavator",
-		"tconstruct:frypan",
-		"tconstruct:hammer",
 		"tconstruct:hatchet",
 		"tconstruct:longsword",
-		"tconstruct:lumberaxe",
-		"tconstruct:mattock",
+		"tconstruct:kama",
 		"tconstruct:pickaxe",
-		"tconstruct:rapier",
-		"tconstruct:scythe",
-		"tconstruct:shortbow",
 		"tconstruct:shovel"
 	],
 
+	stageTwo.stage: [
+		"tconstruct:arrow",
+		"tconstruct:bolt",
+		"tconstruct:excavator",
+		"tconstruct:frypan",
+		"tconstruct:rapier",
+		"tconstruct:shortbow"
+	],
+	
 	stageThree.stage: [
+		"tconstruct:battlesign",
 		"tcomplement:chisel",
 		"tconstruct:cleaver",
+		"tconstruct:crossbow",
+		"tconstruct:hammer",
+		"tconstruct:mattock",
+		"tconstruct:lumberaxe",
 		"tconstruct:longbow",
+		"tconstruct:scythe",
 		"tconstruct:shuriken",
 		"yoyos:yoyo"
-	],
-
-	stageDisabled.stage: [
-		"tconstruct:kama"
 	]
 };
 
@@ -81,7 +81,9 @@ static toolTypeStages as string[][string] = {
 static materialsForStage as string[][string] = {
 	stageOne.stage: [
 		"bone",
+		"bronze",
 		"cactus",
+		"copper",
 		"flint",
 		"stone",
 		"wood"
@@ -90,8 +92,6 @@ static materialsForStage as string[][string] = {
 	stageTwo.stage: [
 		"abyssalnite",
 		"blueslime",
-		"bronze",
-		"copper",
 		"dreadium",
 		"feather",
 		"fierymetal",
@@ -158,10 +158,13 @@ static materialsForStage as string[][string] = {
 // Material Stage
 // Prevents the material from being used.
 static modifierForStage as string[][string] = {
-	stageThree.stage: [
+	stageTwo.stage: [
 		"haste",
 		"luck",
-		"mending_moss",
+		"mending_moss"
+	],
+	
+	stageThree.stage: [
 		"oreexcavate"
 	],
 
@@ -178,51 +181,50 @@ static modifierForStage as string[][string] = {
 	Part Item Staging
 */
 static partsStages as IItemStack[][string] = {
-	stageTwo.stage: [
+	stageOne.stage: [
 		<conarm:armor_plate:0>,
 		<conarm:armor_trim:0>,
 		<conarm:boots_core:0>,
 		<conarm:chest_core:0>,
 		<conarm:helmet_core:0>,
 		<conarm:leggings_core:0>,
+		<tconstruct:axe_head:0>,
+		<tconstruct:binding:0>,
+		<tconstruct:hand_guard:0>,
+		<tconstruct:large_plate:0>,
+		<tconstruct:shovel_head:0>,
+		<tconstruct:pick_head:0>,
+		<tconstruct:sword_blade:0>,
+		<tconstruct:tool_rod:0>,
+		<tconstruct:wide_guard:0>
+	],
+	
+	stageTwo.stage: [
 		<conarm:polishing_kit:0>,
 		<tconstruct:arrow_head:0>,
 		<tconstruct:arrow_shaft:0>,
-		<tconstruct:axe_head:0>,
-		<tconstruct:binding:0>,
 		<tconstruct:bow_limb:0>,
 		<tconstruct:bow_string:0>,
-		<tconstruct:broad_axe_head:0>,
-		<tconstruct:cross_guard:0>,
 		<tconstruct:excavator_head:0>,
 		<tconstruct:fletching:0>,
-		<tconstruct:hammer_head:0>,
-		<tconstruct:hand_guard:0>,
-		<tconstruct:large_plate:0>,
 		<tconstruct:pan_head:0>,
-		<tconstruct:pick_head:0>,
 		<tconstruct:scythe_head:0>,
 		<tconstruct:sharpening_kit:0>,
-		<tconstruct:shovel_head:0>,
 		<tconstruct:sign_head:0>,
-		<tconstruct:sword_blade:0>,
-		<tconstruct:tool_rod:0>,
 		<tconstruct:tough_binding:0>,
 		<tconstruct:tough_tool_rod:0>,
-		<tconstruct:wide_guard:0>
+		<tconstruct:cross_guard:0>
 	],
 
 	stageThree.stage: [
+		<tconstruct:broad_axe_head:0>,
 		<tcomplement:chisel_head:0>,
 		<tconstruct:knife_blade:0>,
 		<tconstruct:large_sword_blade:0>,
+		<tconstruct:hammer_head:0>,
 		<yoyos:yoyo_axle:0>,
 		<yoyos:yoyo_body:0>,
 		<yoyos:yoyo_cord:0>
-	],
-
-	stageDisabled.stage: [
-		<tconstruct:kama_head:0>
 	]
 };
 
