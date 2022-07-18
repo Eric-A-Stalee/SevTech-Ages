@@ -25,112 +25,112 @@ import scripts.crafttweaker.stages.stageFive;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<ferdinandsflowers:block_dye_glass:0> * 8: [
 		[
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:14>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyeRed>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>]
 		]
 	],
 	<ferdinandsflowers:block_dye_glass:1> * 8 : [
 		[
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:1>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyeOrange>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>]
 		]
 	],
 	<ferdinandsflowers:block_dye_glass:2> * 7 : [
 		[
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:1>, <minecraft:glass:0>],
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:4>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyeOrange>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyeYellow>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>]
 		]
 	],
 	<ferdinandsflowers:block_dye_glass:3> * 8 : [
 		[
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:4>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyeYellow>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>]
 		]
 	],
 	<ferdinandsflowers:block_dye_glass:4> * 8 : [
 		[
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:5>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyeLime>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>]
 		]
 	],
 	<ferdinandsflowers:block_dye_glass:5> * 8 : [
 		[
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:13>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyeGreen>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>]
 		]
 	],
 	<ferdinandsflowers:block_dye_glass:6> * 7 : [
 		[
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:11>, <minecraft:glass:0>],
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:13>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyeBlue>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyeGreen>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>]
 		]
 	],
 	<ferdinandsflowers:block_dye_glass:7> * 8 : [
 		[
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:9>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyeCyan>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>]
 		]
 	],
 	<ferdinandsflowers:block_dye_glass:8> * 8 : [
 		[
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:3>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyeCyan>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>]
 		]
 	],
 	<ferdinandsflowers:block_dye_glass:9> * 7 : [
 		[
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:11>, <minecraft:glass:0>],
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:3>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyeBlue>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyeLightBlue>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>]
 		]
 	],
 	<ferdinandsflowers:block_dye_glass:10> * 8 : [
 		[
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:11>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyeBlue>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>]
 		]
 	],
 	<ferdinandsflowers:block_dye_glass:11> * 7 : [
 		[
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:11>, <minecraft:glass:0>],
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:10>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyeBlue>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyePurple>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>]
 		]
 	],
 	<ferdinandsflowers:block_dye_glass:12> * 8 : [
 		[
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:10>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyePurple>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>]
 		]
 	],
 	<ferdinandsflowers:block_dye_glass:13> * 7 : [
 		[
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:8>, <minecraft:glass:0>],
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:10>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyeLightGray>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyePurple>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>]
 		]
 	],
 	<ferdinandsflowers:block_dye_glass:14> * 8 : [
 		[
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:2>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyeMagenta>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>]
 		]
 	],
 	<ferdinandsflowers:block_dye_glass:15> * 8 : [
 		[
-			[<minecraft:glass:0>, <pickletweaks:dye_powder:6>, <minecraft:glass:0>],
+			[<minecraft:glass:0>, <ore:dyePink>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>],
 			[<minecraft:glass:0>, <minecraft:glass:0>, <minecraft:glass:0>]
 		]
