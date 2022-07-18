@@ -136,43 +136,43 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	// ==================================
 	// Dye Unification
 	<pickletweaks:dye_powder:1> * 2 : [
-		[<pickletweaks:dye_powder:14>, <pickletweaks:dye_powder:4>]
+		[<ore:dyeRed>, <ore:dyeYellow>]
 	],
 	<pickletweaks:dye_powder:2> * 2 : [
-		[<pickletweaks:dye_powder:6>, <pickletweaks:dye_powder:10>]
+		[<ore:dyePink>, <ore:dyePurple>]
 	],
 	<pickletweaks:dye_powder:2> * 3 : [
-		[<pickletweaks:dye_powder:6>, <pickletweaks:dye_powder:14>, <pickletweaks:dye_powder:11>]
+		[<ore:dyePink>, <ore:dyeRed>, <ore:dyeBlue>]
 	],
 	<pickletweaks:dye_powder:2> * 4 : [
-		[<pickletweaks:dye_powder:0>, <pickletweaks:dye_powder:14>, <pickletweaks:dye_powder:14>, <pickletweaks:dye_powder:11>]
+		[<ore:dyeWhite>, <ore:dyeRed>, <ore:dyeRed>, <ore:dyeBlue>]
 	],
 	<pickletweaks:dye_powder:3> * 2 : [
-		[<pickletweaks:dye_powder:11>, <pickletweaks:dye_powder:0>]
+		[<ore:dyeBlue>, <ore:dyeWhite>]
 	],
 	<pickletweaks:dye_powder:5> * 2 : [
-		[<pickletweaks:dye_powder:13>, <pickletweaks:dye_powder:0>]
+		[<ore:dyeGreen>, <ore:dyeWhite>]
 	],
 	<pickletweaks:dye_powder:6> * 2 : [
-		[<pickletweaks:dye_powder:14>, <pickletweaks:dye_powder:0>]
+		[<ore:dyePink>, <ore:dyeWhite>]
 	],
 	<pickletweaks:dye_powder:7> * 2 : [
-		[<pickletweaks:dye_powder:0>, <pickletweaks:dye_powder:15>]
+		[<ore:dyeWhite>, <ore:dyeBlack>]
 	],
 	<pickletweaks:dye_powder:8> * 3 : [
-		[<pickletweaks:dye_powder:0>, <pickletweaks:dye_powder:0>, <pickletweaks:dye_powder:15>]
+		[<ore:dyeWhite>, <ore:dyeWhite>, <ore:dyeBlack>]
 	],
 	<pickletweaks:dye_powder:9> * 2 : [
-		[<pickletweaks:dye_powder:13>, <pickletweaks:dye_powder:11>]
+		[<ore:dyeGreen>, <ore:dyeBlue>]
 	],
 	<pickletweaks:dye_powder:10> * 2 : [
-		[<pickletweaks:dye_powder:14>, <pickletweaks:dye_powder:11>]
+		[<ore:dyeRed>, <ore:dyeBlue>]
 	],
 	<pickletweaks:dye_powder:12> * 2 : [
-		[<pickletweaks:dye_powder:15>, <pickletweaks:dye_powder:1>]
+		[<ore:dyeBlack>, <ore:dyeOrange>]
 	],
 	<pickletweaks:dye_powder:12> * 3 : [
-		[<pickletweaks:dye_powder:15>, <pickletweaks:dye_powder:14>, <pickletweaks:dye_powder:4>]
+		[<ore:dyeBlack>, <ore:dyeRed>, <ore:dyeYellow>]
 	]
 };
 
@@ -183,7 +183,6 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
-	<pickletweaks:dye_powder:*>,
 	<pickletweaks:grass_mesh:0>,
 	<pickletweaks:mesh:0>,
 	<pickletweaks:watering_can:0>
