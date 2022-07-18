@@ -45,7 +45,7 @@ static stageCreativeUnused as Stage = ZenStager.initStage("creative_unused");
 static metalStages as string[string] = {
 	abyssalnite: "two",
 	aluminum: "three",
-	aluminumBrass: "three",
+	aluminumBrass: "two",
 	ardite: "four",
 	blackIron: "two",
 	bronze: "one",
