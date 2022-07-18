@@ -56,7 +56,6 @@ function initSpecificStaging() {
 	scripts.crafttweaker.staging.mobs.init();
 	scripts.crafttweaker.staging.multiblock.immersiveEngineering.init();
 	scripts.crafttweaker.staging.ores.init();
-	scripts.crafttweaker.staging.tinkers.init();
 	scripts.crafttweaker.staging.waila.init();
 }
 
@@ -306,7 +305,6 @@ function initIntegrations() {
 	scripts.crafttweaker.integrations.mods.primalCore.init();
 	scripts.crafttweaker.integrations.mods.primalTech.init();
 	scripts.crafttweaker.integrations.mods.rustic.init();
-	scripts.crafttweaker.integrations.mods.tinkers.init.init();
 	scripts.crafttweaker.integrations.mods.zenloot.init();
 }
 
