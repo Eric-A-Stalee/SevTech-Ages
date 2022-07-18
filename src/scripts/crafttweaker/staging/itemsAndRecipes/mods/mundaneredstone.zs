@@ -2,10 +2,10 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.ZenStager;
 
-import scripts.crafttweaker.stages.stageThree;
+import scripts.crafttweaker.stages.stageZero;
 
 static stagedItems as IIngredient[][string] = {
-	stageThree.stage: [
+	stageZero.stage: [
 		<mundaneredstone:redstone_ore:0>,
 	]
 };
