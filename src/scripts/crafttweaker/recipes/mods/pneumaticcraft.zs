@@ -23,7 +23,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<pneumaticcraft:assembly_laser:0> : [
 		[
-			[<pickletweaks:dye_powder:14>, <pneumaticcraft:pneumatic_cylinder:0>, <pneumaticcraft:pneumatic_cylinder:0>],
+			[<ore:dyeRed>, <pneumaticcraft:pneumatic_cylinder:0>, <pneumaticcraft:pneumatic_cylinder:0>],
 			[null, null, <pneumaticcraft:pneumatic_cylinder:0>],
 			[metals.compressedIron.ingot, <pneumaticcraft:printed_circuit_board:0>, metals.compressedIron.ingot]
 		]
