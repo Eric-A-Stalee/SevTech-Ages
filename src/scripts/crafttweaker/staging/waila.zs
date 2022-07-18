@@ -9,12 +9,14 @@
 */
 import mods.WailaStages;
 
+import scripts.crafttweaker.stages.stageTutorial;
+import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 
 function init() {
 	// Stage One
-	WailaStages.addWailaStage(stageOne.stage);
+	WailaStages.addWailaStage(stageTutorial.stage);
 
 	// Stage Two
 	WailaStages.addRequirement(stageTwo.stage, "Currently");
