@@ -10,28 +10,24 @@
 import mods.bloodmagic.TartaricForge;
 
 function init() {
-	TartaricForge.removeRecipe([<minecraft:redstone:0>, <pickletweaks:dye_powder:0>, <minecraft:gunpowder:0>, <minecraft:coal:*>]);
 	TartaricForge.addRecipe(
 		<bloodmagic:arcane_ashes:0>,
-		[<betterwithaddons:tweakmat:0>, <minecraft:gunpowder:0>, <pickletweaks:dye_powder:0>, <minecraft:coal:1>],
+		[<betterwithaddons:tweakmat:0>, <minecraft:gunpowder:0>, <ore:dyeWhite>, <minecraft:coal:1>],
 		0, 0
 	);
 
-	TartaricForge.removeRecipe([<minecraft:glowstone:0>, <minecraft:torch:0>, <minecraft:redstone:0>, <minecraft:redstone:0>]);
 	TartaricForge.addRecipe(
 		<bloodmagic:component:11>,
 		[<betterwithmods:candle:*>, <minecraft:torch:0>, <betterwithaddons:tweakmat:0>, <betterwithaddons:tweakmat:0>],
 		200, 10
 	);
 
-	TartaricForge.removeRecipe([<minecraft:ice:0>, <minecraft:snowball:0>, <minecraft:snowball:0>, <minecraft:redstone:0>]);
 	TartaricForge.addRecipe(
 		<bloodmagic:component:32>,
 		[<minecraft:snow:0>, <minecraft:snowball:0>, <minecraft:snowball:0>, <betterwithaddons:tweakmat:0>],
 		80, 10
 	);
 
-	TartaricForge.removeRecipe([<bloodmagic:teleposer:0>, <minecraft:diamond:0>, <minecraft:ender_pearl:0>, <minecraft:obsidian:0>]);
 	TartaricForge.addRecipe(
 		<bloodmagic:component:18>,
 		[<bloodmagic:teleposer:0>, metals.platinum.ingot, <minecraft:ender_pearl:0>, <minecraft:obsidian:0>],
@@ -45,7 +41,6 @@ function init() {
 		400, 200
 	);
 
-	TartaricForge.removeRecipe([<minecraft:diamond_chestplate:0>, <bloodmagic:soul_gem:1>, <minecraft:iron_block:0>, <minecraft:obsidian:0>]);
 	TartaricForge.addRecipe(
 		<bloodmagic:sentient_armour_gem:0>,
 		[<minecraft:golden_chestplate:0>, <bloodmagic:soul_gem:1>, metals.iron.block, <minecraft:obsidian:0>],
@@ -101,10 +96,9 @@ function init() {
 		400, 10
 	);
 
-	TartaricForge.removeRecipe([<minecraft:redstone:0>, <minecraft:gold_ingot:0>, <minecraft:glass:0>, <pickletweaks:dye_powder:11>]);
 	TartaricForge.addRecipe(
 		<bloodmagic:soul_gem:0>,
-		[<betterwithaddons:tweakmat:0>, metals.bronze.ingot, <pickletweaks:dye_powder:11>, <abyssalcraft:shadowfragment:0>],
+		[<betterwithaddons:tweakmat:0>, metals.bronze.ingot, <ore:dyeBlue>, <abyssalcraft:shadowfragment:0>],
 		1, 1
 	);
 
