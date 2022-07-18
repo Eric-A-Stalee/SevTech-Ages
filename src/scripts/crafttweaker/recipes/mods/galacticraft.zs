@@ -101,7 +101,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<minecraft:coal:0>, <minecraft:coal:0>, <minecraft:coal:0>, <minecraft:coal:0>]
 	],
 	<galacticraftcore:prelaunch_checklist:0>: [
-		[<galacticraftcore:canvas>, <pickletweaks:dye_powder:14>]
+		[<galacticraftcore:canvas>, <ore:dyeRed>]
 	]
 };
 
