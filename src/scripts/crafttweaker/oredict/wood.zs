@@ -140,6 +140,7 @@
 */
 
 // Add sticks to oredict so we can unify
+// Need to add yew stick?
 <ore:stickWood>.add(<natura:sticks:0>);
 <ore:stickWood>.add(<natura:sticks:1>);
 <ore:stickWood>.add(<natura:sticks:2>);
