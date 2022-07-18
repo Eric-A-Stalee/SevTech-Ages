@@ -63,6 +63,8 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageThree.stage: [
+		<actuallyadditions:block_coal_generator:0>,
+		<actuallyadditions:block_grinder:0>,
 		<actuallyadditions:item_axe_obsidian:*>,
 		<actuallyadditions:item_boots_obsidian:*>,
 		<actuallyadditions:item_chest_obsidian:*>,
@@ -111,7 +113,6 @@ static stagedItems as IIngredient[][string] = {
 		<actuallyadditions:block_chiseled_quartz_slab:0>,
 		<actuallyadditions:block_chiseled_quartz_stair:0>,
 		<actuallyadditions:block_chiseled_quartz_wall:0>,
-		<actuallyadditions:block_coal_generator:0>,
 		<actuallyadditions:block_coffee_machine:0>,
 		<actuallyadditions:block_directional_breaker:0>,
 		<actuallyadditions:block_farmer:0>,
@@ -124,7 +125,6 @@ static stagedItems as IIngredient[][string] = {
 		<actuallyadditions:block_giant_chest:0>,
 		<actuallyadditions:block_greenhouse_glass:0>,
 		<actuallyadditions:block_grinder_double:0>,
-		<actuallyadditions:block_grinder:0>,
 		<actuallyadditions:block_heat_collector:0>,
 		<actuallyadditions:block_item_viewer_hopping:0>,
 		<actuallyadditions:block_misc:4>,
