@@ -189,7 +189,6 @@ static replacementItemsForStage as IIngredient[][][string] = {
 		[<mundaneredstone:redstone_ore:0>],
 		[<geolosys:ore_vanilla:1>],
 		[<geolosys:ore_sample_vanilla:1>, <immcraft:rock:0>],
-		[<minecraft:redstone_block:0>, <minecraft:stone:1>],
 		[<chisel:redstone:0>, <chisel:granite:0>],
 		[<chisel:redstone:1>, <chisel:granite:1>],
 		[<chisel:redstone:2>, <chisel:granite:2>],
