@@ -9,8 +9,8 @@
 */
 import crafttweaker.item.IItemStack;
 
-// There shall be one and only one FLOUR!
-<ore:foodFlour>.remove(<betterwithmods:raw_pastry:3>);
+// There shall be many FLOURs so f off!
+<ore:foodFlour>.add(<betterwithmods:raw_pastry:3>);
 <ore:foodFlour>.add(<horsepower:flour:0>);
 
 // Add the salts so our recipe loops work correctly on load.
