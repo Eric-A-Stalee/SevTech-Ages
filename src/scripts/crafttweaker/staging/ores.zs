@@ -136,7 +136,6 @@ static replacementItemsForStage as IIngredient[][][string] = {
 
 		// Astral Sorcery
 		[<astralsorcery:blockcustomsandore:0>, <minecraft:sand:0>],
-		[<astralsorcery:blockcustomore:0>],
 		[<astralsorcery:blockgeolosyssamplecluster:0>, <immcraft:rock:0>]
 	],
 
