@@ -305,10 +305,6 @@ static hiddenItems as IIngredient[] = [
 ];
 
 static hiddenRemove as IIngredient[] = [
-	<tconstruct:slimesling:1>,
-	<tconstruct:slimesling:2>,
-	<tconstruct:slimesling:3>,
-	<tconstruct:slimesling:4>,
 	<tconstruct:throwball:1>,
 	<tconstruct:toolforge:0>.withTag({textureBlock: {id: "extraplanets:neptune", Count: 1 as byte, Damage: 7 as short}}),
 	<tconstruct:toolforge:0>.withTag({textureBlock: {id: "primal:metalblock", Count: 1 as byte, Damage: 12 as short}}),
