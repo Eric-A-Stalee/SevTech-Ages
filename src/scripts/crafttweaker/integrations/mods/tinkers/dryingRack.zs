@@ -18,7 +18,6 @@ function init() {
 	tinkers.addDrying(<primal:shark_meat_dried:0>, <primal:shark_meat_raw:0>, 1600);
 
 	// Leather Recipes
-	tinkers.removeDrying(<minecraft:leather:0>);
 	tinkers.addDrying(<minecraft:leather:0>, <primal:hide_tanned:0>, 2400);
 	tinkers.addDrying(<primal:hide_dried:0>, <primal:hide_salted:0>, 2400);
 }
