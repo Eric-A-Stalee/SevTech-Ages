@@ -16,7 +16,7 @@ import crafttweaker.item.IIngredient;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<immcraft:shelf:0> : [
 		[
-			[<ore:plankWood>, <immcraft:rock:0>, <ore:plankWood>],
+			[<ore:plankWood>, null, <ore:plankWood>],
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]
@@ -32,7 +32,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
  		[
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-			[<ore:plankWood>, <immcraft:rock:0>, <ore:plankWood>]
+			[<ore:plankWood>, null, <ore:plankWood>]
 		]
 	],
 	<immcraft:chest:0> : [
@@ -44,7 +44,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<immcraft:bookshelf:0> : [
 		[
-			[<ore:plankWood>, <immcraft:rock:0>, <ore:plankWood>],
+			[<ore:plankWood>, null, <ore:plankWood>],
 			[<ore:plankWood>, <minecraft:book:0>, <ore:plankWood>],
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]
