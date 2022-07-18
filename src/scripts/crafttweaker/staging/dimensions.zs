@@ -20,12 +20,21 @@ import scripts.crafttweaker.stages.stageFive;
 function init() {
 	// Beneath
 	stageOne.addDimension(10);
+    
+	// RfTools Lost Cities
+	stageOne.addDimension(111);
+    
+	// Midnight (seems to break portal teleportation so testing without any staging)
+	// stageOne.addDimension(424); 
 
 	// Twilight Forest
 	stageTwo.addDimension(7);
 
 	// Betweenlands
 	stageTwo.addDimension(20);
+	
+	// Aurorian (not sure if this will work)
+	stageTwo.addDimension(24); 
 
 	// Nether
 	stageThree.addDimension(-1);
