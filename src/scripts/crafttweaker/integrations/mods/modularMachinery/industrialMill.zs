@@ -100,7 +100,7 @@ function init() {
 	createMillRecipe("flour", <horsepower:flour:0>, [
 		<minecraft:wheat:0>
 	]);
-	createMillRecipe("barley_flour", <horsepower:flour:0>, [
+	createMillRecipe("barley_flour", <natura:materials:1>, [
 		<natura:materials:0>
 	]);
 	createMillRecipe("rice_flour", <betterwithaddons:japanmat:4>, [
