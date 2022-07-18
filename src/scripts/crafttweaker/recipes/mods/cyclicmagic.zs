@@ -188,7 +188,6 @@ static removeRecipes as IItemStack[] = [
 	<cyclicmagic:harvester_block:0>,
 	<cyclicmagic:placer_block:0>,
 	<cyclicmagic:sleeping_mat:0>,
-	<cyclicmagic:sprinkler:0>,
 	<cyclicmagic:tool_auto_torch:0>,
 	<cyclicmagic:tool_launcher:0>
 ];
