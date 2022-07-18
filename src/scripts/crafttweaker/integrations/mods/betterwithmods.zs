@@ -16,18 +16,10 @@ import mods.betterwithmods.Turntable;
 import mods.betterwithmods.Saw;
 
 /*
-	Recipes to be removed from the Kiln.
-*/
-static kilnRemovals as IItemStack[] = [
-	<betterwithmods:raw_pastry:3>
-];
-
-/*
 	Recipes to be removed from the Mill.
 */
 static millRemovals as IItemStack[][] = [
 	[<betterwithmods:material:33>],
-	[<betterwithmods:raw_pastry:3>],
 	[<minecraft:dye:11>],
 	[<minecraft:dye:12>],
 	[<minecraft:dye:13>],
@@ -221,12 +213,8 @@ function init() {
 	// Rice Flour
 	betterWithMods.addMilling([<actuallyadditions:item_food:16>], [<betterwithaddons:japanmat:4>]);
 
-	// THERE CAN BE ONLY 1 FLOUR!
-	betterWithMods.addMilling([<minecraft:wheat:0>], [<horsepower:flour:0>]);
-	betterWithMods.addMilling([<natura:materials:0>], [<horsepower:flour:0>]);
-
 	// Other
-	betterWithMods.addMilling([<minecraft:flint:0>, <minecraft:clay_ball:0>, <pickletweaks:dye_powder:0>], [<ceramics:unfired_clay:4>]);
+	betterWithMods.addMilling([<minecraft:flint:0>, <minecraft:clay_ball:0>, <ore:dyeWhite>], [<ceramics:unfired_clay:4>]);
 	betterWithMods.addMilling([<minecraft:sand:0>, <minecraft:clay_ball:0>, <minecraft:gravel:0>], [<tconstruct:soil:0> * 2]);
 	betterWithMods.addMilling([<actuallyadditions:block_misc:3>], [<actuallyadditions:item_dust:7>]);
 	betterWithMods.addMilling([<materialpart:aquamarine:ore_minecraft_stone>], [<astralsorcery:itemcraftingcomponent:0> * 1]);
@@ -239,7 +227,7 @@ function init() {
 	betterWithMods.addMilling([<minecraft:quartz:0>], [<appliedenergistics2:material:3>]);
 	betterWithMods.addMilling([<primal:sharp_bone:0>], [<primal:bone_knapp:0>]);
 	betterWithMods.addMilling([<primal:shark_tooth:0>], [<minecraft:dye:15> * 2]);
-	betterWithMods.addMilling([<betterwithmods:companion_cube>], [<minecraft:string> * 10, <pickletweaks:dye_powder:14> * 2]);
+	betterWithMods.addMilling([<betterwithmods:companion_cube>], [<minecraft:string> * 10, <ore:dyeRed> * 2]);
 
 	// Bark
 	for bark in <ore:barkWood>.items {
@@ -259,7 +247,7 @@ function init() {
 	betterWithMods.addCauldron([<animalium:wild_dog_pelt:0>], [<betterwithmods:material:12>]);
 	betterWithMods.addCauldron([<totemic:buffalo_items:0>], [<betterwithmods:material:12> * 2]);
 	betterWithMods.addCauldron([<primal:wolf_head_item:0>], [<betterwithmods:material:12>, <primal:bone_knapp:0>]);
-	betterWithMods.addCauldron([<minecraft:sapling:2>, <minecraft:wheat:0> * 16, <pickletweaks:dye_powder:14> * 8, <minecraft:rotten_flesh:0> * 4], [<betterwithaddons:sapling_luretree:0>]);
+	betterWithMods.addCauldron([<minecraft:sapling:2>, <minecraft:wheat:0> * 16, <ore:dyeRed> * 8, <minecraft:rotten_flesh:0> * 4], [<betterwithaddons:sapling_luretree:0>]);
 	// Remake laxative recipe using foodFlour instead of BWM flour only.
 	betterWithMods.addCauldron([<betterwithaddons:food_mulberry:0> * 3, <minecraft:sugar:0>, <ore:foodFlour>], [<betterwithaddons:laxative:0>]);
 
