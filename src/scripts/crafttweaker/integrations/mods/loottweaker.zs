@@ -44,43 +44,16 @@ function init() {
 
 	// Global Items Removal
 	var globalItems as string[] = [
-		"abyssalcraft:mre",
-		"minecraft:blaze_powder",
-		"minecraft:blaze_rod",
-		"minecraft:bucket",
-		"minecraft:diamond",
-		"minecraft:diamond_block",
-		"minecraft:diamond_hoe",
-		"minecraft:diamond_sword",
-		"minecraft:emerald",
-		"minecraft:emerald_block",
 		"minecraft:ender_chest",
 		"minecraft:ender_pearl",
-		"minecraft:glowstone",
-		"minecraft:gold_nugget",
-		"minecraft:golden_apple",
-		"minecraft:golden_helmet",
-		"minecraft:golden_pickaxe",
-		"minecraft:iron_ingot",
-		"minecraft:iron_leggings",
-		"minecraft:iron_pickaxe",
 		"minecraft:magma_cream",
-		"minecraft:milk_bucket",
 		"minecraft:obsidian",
-		"minecraft:redstone",
-		"minecraft:redstone_block",
-		"minecraft:water_bucket",
 		"primal:animal_fat",
 		"primal:animal_fat_nether",
-		"primal:salo",
-		"twilightforest:ore_magnet",
-		"twilightforest:uncrafting_table"
+		"primal:salo"
 	];
 
 	for globalItem in globalItems {
 		LootTable.removeGlobalItem(globalItem);
 	}
-
-	// Single Entry Removals
-	LootTable.removeEntry("twilightforest:structures/tower_room", "pool1", "minecraft:ghast_tear");
 }
