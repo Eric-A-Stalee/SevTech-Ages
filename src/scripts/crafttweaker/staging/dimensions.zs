@@ -24,8 +24,8 @@ function init() {
 	// RfTools Lost Cities
 	stageOne.addDimension(111);
     
-	// Midnight (seems to break portal teleportation so testing without any staging)
-	// stageOne.addDimension(424); 
+	// Midnight (are portals broken with magma?)
+	stageOne.addDimension(-23); 
 
 	// Twilight Forest
 	stageTwo.addDimension(7);
@@ -34,7 +34,7 @@ function init() {
 	stageTwo.addDimension(20);
 	
 	// Aurorian (not sure if this will work)
-	stageTwo.addDimension(24); 
+	stageTwo.addDimension(424); 
 
 	// Nether
 	stageThree.addDimension(-1);
