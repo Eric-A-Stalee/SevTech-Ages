@@ -111,9 +111,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<betterwithmods:material:0> : [
 		[
-			[<totemic:buffalo_items:1>, <totemic:cedar_plank:0>, <totemic:buffalo_items:1>],
-			[<totemic:cedar_plank:0>, null, <totemic:cedar_plank:0>],
-			[<totemic:buffalo_items:1>, <totemic:cedar_plank:0>, <totemic:buffalo_items:1>]
+			[null, <ore:plankWood>, null,
+			[<ore:plankWood>, null, <ore:plankWood>],
+			[null, <ore:plankWood>, null]
 		]
 	],
 	<betterwithmods:wicker:0> : [
